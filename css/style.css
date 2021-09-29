@@ -92,6 +92,10 @@ p {
     align-items: center;
     justify-content: space-between;
 }
+.logo {
+    width: 224px;
+    height: 72px;
+}
 .header-nav {
     display: flex;
     justify-content: space-between;
