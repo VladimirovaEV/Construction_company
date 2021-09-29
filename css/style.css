@@ -223,7 +223,7 @@ p {
 }
 .hero-slide-three {
     height: 620px;
-    background-image: url(../img/apartment-apartment-building-architecture-building-323705\ 2.jpg);
+    background-image: url('../img/apartment-apartment-building-architecture-building-323705\ 2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 100px 0 0 80px;
