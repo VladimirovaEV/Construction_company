@@ -92,7 +92,7 @@ p {
     align-items: center;
     justify-content: space-between;
 }
-.logo {
+.logo-img {
     width: 224px;
     height: 72px;
 }
@@ -892,7 +892,7 @@ max-width: 870px;
     .container {
     max-width: 924px;
     }
-    .logo {
+    .logo-img {
         width: 150px;
         height: 48px;
     }
@@ -1237,7 +1237,7 @@ max-width: 870px;
     .container {
     max-width: 500px;
     }
-    .logo {
+    .logo-img {
     width: 110px;
     height: 35px;
     }
