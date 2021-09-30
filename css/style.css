@@ -90,11 +90,6 @@ p {
      border: none !important;
      outline: none !important;
 }
-/* .ui-accordion {
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-} */
 .ui-accordion .ui-accordion-content,
 .ui-accordion .ui-accordion-content-active {
     font-family: Montserrat, sans-serif !important;
@@ -111,7 +106,9 @@ p {
 .ui-accordion-header .ui-accordion-header-active {
     color: #333333 !important;
 }
-
+.ui-state-active a, .ui-state-active a:link {
+    color: #333333 !important;
+}
 /* header */
 .header {
     padding-top: 14px;
