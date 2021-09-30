@@ -107,16 +107,11 @@ p {
     font-size: 24px !important;
     line-height: 29px !important;
 }
-.ui-accordion-header .ui-state-active {
-    color: #333333 !important;
-}
  
-.ui-accordion-header-active .ui-state-active {
+.ui-accordion-header .ui-accordion-header-active {
     color: #333333 !important;
 }
-.ui-accordion-header-icon .ui-icon {
-    display: none !important;
-}
+
 /* header */
 .header {
     padding-top: 14px;
@@ -880,9 +875,10 @@ max-width: 870px;
     font-size: 12px;
     line-height: 28px;
     }
-    .ui-accordion .ui-accordion-content {
+    .ui-accordion .ui-accordion-content,
+    .ui-accordion .ui-accordion-content-active {
     font-size: 16px;
-    line-height: 21px;
+    line-height: 21px !important;
 }
     .footer-container {
     padding: 50px 0 50px 82px;
