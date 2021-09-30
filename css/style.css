@@ -99,6 +99,12 @@ p {
     font-size: 24px;
     line-height: 29px;
 }
+.ui-state-active {
+    color: #333333;
+}
+.ui-icon {
+    background-image: none;
+}
 .ui-accordion-content {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
