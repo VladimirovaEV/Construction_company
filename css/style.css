@@ -83,7 +83,8 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
-.ui-accordion .ui-accordion-header, .ui-accordion .ui-accordion-content {
+.ui-accordion .ui-accordion-header, .ui-accordion .ui-accordion-content, 
+.ui-accordion-header-icon .ui-icon {
      padding: 0;
      background: none;
      border: none;
@@ -99,12 +100,10 @@ p {
     font-size: 24px;
     line-height: 29px;
 }
-.ui-state-active {
+.ui-accordion-header .ui-state-active {
     color: #333333;
 }
-.ui-icon {
-    background-image: none;
-}
+ 
 .ui-accordion-content {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
