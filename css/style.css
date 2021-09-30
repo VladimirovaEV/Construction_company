@@ -83,8 +83,7 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
-.ui-accordion .ui-accordion-header, .ui-accordion .ui-accordion-content, 
-.ui-accordion-header-icon .ui-icon {
+.ui-accordion .ui-accordion-header, .ui-accordion .ui-accordion-content {
      padding: 0;
      background: none;
      border: none;
@@ -114,8 +113,11 @@ p {
     font-size: 16px;
     line-height: 32px;
 }
-.ui-state-active a {
+.ui-accordion-header-active .ui-state-active {
     color: #333333;
+}
+.ui-accordion-header-icon .ui-icon {
+    display: none;
 }
 /* header */
 .header {
